@@ -73,6 +73,8 @@ if (player4 == 1){
   player4 = "finalist";
 }
 
+chess.reset();
+
 // Les finalistes jouent la finale //
 
 if (startsWith(player) == "finalist"){
